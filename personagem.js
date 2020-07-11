@@ -18,9 +18,11 @@ function movimentoPersonagem() {
     }
 }
 
+//collideRectCircle(x1, y1, width1, height1, cx, cy, diameter)
+
 function verificaColisao() {
     for (let i = 0; i < imagemCarros.length; i++) {
-        colisao = collideRectCircle(xCarros[i], yCarros[i], alturaCarro[i], larguraCarro[i], xPersonagem, yPersonagem, 15);
+        colisao = collideRectCircle(xCarros[i], yCarros[i], larguraCarro, alturaCarro, xPersonagem, yPersonagem, 15);
         if (colisao) {
             print("colidiu")
         }

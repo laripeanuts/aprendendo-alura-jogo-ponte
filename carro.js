@@ -5,7 +5,7 @@ let larguraCarro = 85;
 let yCarros = [119, 175, 232, 322, 378, 435];
 let xCarros = [810, 810, 810, 810, 810, 810];
 let xCarrosA = [810 + 300, 810 + 500, 810 + 200, 810 + 250, 810 + 400, 810 + 400];
-let velCarros = [8, 7, 5, 6, , 5.5];
+let velCarros = [8, 7, 5, 6, 8, 5.5];
 imagemCarros = [imagemCarro1, imagemCarro2, imagemCarro3, imagemCarro4, imagemCarro5, imagemCarro6];
 
 
