@@ -2,6 +2,7 @@
 
 function setup() {
   createCanvas(800, 600);
+  somTrilha.loop();
 }
 
 function draw() {
@@ -16,4 +17,8 @@ function draw() {
 
   //COLISAO
   verificaColisao();
+
+  //PONTOS
+  incluiPontos();
+  marcaPonto();
 }

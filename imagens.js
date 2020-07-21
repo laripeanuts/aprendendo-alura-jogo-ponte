@@ -1,7 +1,7 @@
 // IMAGENS 
-
 let imagemBackground;
 let imagemPersonagem;
+let imagemPersonagem2;
 let imagemCarro1;
 let imagemCarro1a;
 let imagemCarro2;
@@ -15,9 +15,16 @@ let imagemCarro5a;
 let imagemCarro6;
 let imagemCarro6a;
 
+// SONS
+let somTrilha;
+let somColisao;
+let somPontos;
+
 function preload() {
+    //IMAGENS
     imagemBackground = loadImage("imagens/background.png")
     imagemPersonagem = loadImage("imagens/bolinha.png")
+    imagemPersonagem2 = loadImage("imagens/bolinhaback.png")
 
     imagemCarro1 = loadImage("imagens/carro01.png")
     imagemCarro1a = loadImage("imagens/carro07.png")
@@ -35,4 +42,8 @@ function preload() {
     imagemCarros = [imagemCarro1, imagemCarro2, imagemCarro3, imagemCarro4, imagemCarro5, imagemCarro6];
     imagemCarrosA = [imagemCarro1a, imagemCarro2a, imagemCarro3a, imagemCarro4a, imagemCarro5a, imagemCarro6a];
 
+    //SONS
+    somTrilha = loadSound("sons/trilha.mp3");
+    somColisao = loadSound("sons/colidiu.mp3");
+    somPontos = loadSound("sons/pontos.wav");
 }
